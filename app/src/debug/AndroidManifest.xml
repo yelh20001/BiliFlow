@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <receiver android:name=".MiniFixtureReceiver" android:exported="true" />
+        <activity android:name=".WatchLaterProbeActivity" android:exported="true" />
+        <activity android:name=".CommentPictureFixtureActivity" android:exported="true" />
+        <activity android:name=".DynamicProbeActivity" android:exported="true" />
+        <activity android:name=".StreamProbeActivity" android:exported="true" />
+        <activity android:name=".GlassFixtureActivity" android:exported="true" />
+    </application>
+</manifest>
